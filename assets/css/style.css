@@ -55,11 +55,11 @@ z-index: 2;
 
 }
 
-.container {
+.header-container {
     display: flex;
     justify-content: flex-end;
 }
-.flex-container {
+.header-flex-container {
     position: relative;
     z-index: 2;
     display: flex;
@@ -97,6 +97,32 @@ h2 {
 p {
     text-indent: 1em;
     line-height: 3rem;
+}
+
+.work-containter{
+    display: flex;
+}
+
+.img-horiseon {
+display: flex;
+height: auto;
+width: 40%;
+margin: 1rem;
+border: 5px solid black;
+position: relative;
+z-index: 1;
+opacity: 0.8;
+}
+
+.figure-caption {
+    position: absolute;
+    top: 720px;
+    left: 30px;
+    z-index: 2;
+    text-decoration:underline;
+}
+figcaption p {
+    font-size: 1.5rem;
 }
 
 footer h2 {
