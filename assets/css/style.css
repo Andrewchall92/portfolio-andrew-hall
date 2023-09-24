@@ -101,6 +101,7 @@ p {
 
 .work-containter{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .img-horiseon {
@@ -123,6 +124,24 @@ opacity: 0.8;
 }
 figcaption p {
     font-size: 1.5rem;
+}
+
+.work-containter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+
+}
+
+.work-figure {
+flex-basis: 50%;
+margin: 0;
+padding: 0;
+}
+
+.work-img {
+    width: 10%;
+    height: auto;
 }
 
 footer h2 {
