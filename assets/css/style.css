@@ -14,7 +14,6 @@ html {
 
 header {
     position: relative;
-    height: 100%;
     width: 100%;
     text-align: center;
     font-size:5rem;
@@ -24,18 +23,17 @@ header {
 }
 
 .logo {
-    position: absolute;
-    top: 10px;
-    left: 10px; 
+    position: relative;
+    margin-top: 20px; 
+    margin-right: 1200px;
+    height: auto;
+    width: 20%;
     z-index: 2;
     border: 0.5rem solid black;
     opacity: 0.9;
+    padding: 0;
 }
 
-img {
-    width: 13%;
-    height: auto;
-}
 
 .background {
     position: absolute;
@@ -49,10 +47,11 @@ img {
 }
 
 h1 {
-margin-top: 20px;
-position: relative; 
-z-index: 2;
-
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .header-container {
@@ -70,7 +69,7 @@ z-index: 2;
 .line-element {
     padding: 10px;
     margin-left: auto;
-    font-size: 20px;
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
@@ -102,44 +101,49 @@ p {
 .work-container {
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 100px;
+    
 }
 
 .work-container-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 25px;
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 100px;
+    row-gap: 25px;
 
+}
 .img-horiseon {
-display: flex;
-height: auto;
-width: 40%;
-margin: 1rem;
-border: 5px solid black;
-position: relative;
-z-index: 1;
-opacity: 0.8;
+    display: flex;
+    height: auto;
+    width: 75%;
+    margin: 1rem;
+    border: 5px solid black;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
 }
 
 .figure-caption {
     position: absolute;
-    top: 720px;
-    left: 30px;
+    top: 750px;
+    left: 150px;
     z-index: 2;
     text-decoration:underline;
 }
 figcaption p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 
 .work-img {
-    width: 50%;
+    width: 75%;
     height: auto;
+    border: 8px solid black;
 }
 
 footer h2 {
-font-size: 2.5rem;    
+    font-size: 2.5rem;    
 }
 
 .flex-box {
@@ -156,4 +160,20 @@ font-size: 2.5rem;
 .contact-line-element {
     padding: 1rem;
     margin-right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .work-container {
+    display: flex;
+    flex-wrap: wrap;
+  }  
+  .logo {
+    width: 50%;
+  }
+  .contact-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+  }
+
 }
