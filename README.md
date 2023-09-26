@@ -19,7 +19,7 @@ Technology Used         | Resource URL           |
 | CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
 | Git | [https://git-scm.com/](https://git-scm.com/)     |    
 
- [Visit the Deployed Site] 
+ [Visit the Deployed Site](https://andrewchall92.github.io/portfolio-andrew-hall/)
 
 
 ## License
